@@ -1,0 +1,17 @@
+Revision history for Text-Chord-Piano
+
+0.0.5  Sat Mar 14 20:20:20 2009
+       removed code. it was no need.
+
+0.0.4  Tue Mar 10 22:10:00 2009
+       get chord from Music::Chord::Note
+
+0.0.3  Fri Dec 12 15:55:55 2008
+       fixed chord list and added tests
+
+0.0.2  Fri Nov  6 12:55:55 2008
+       fixed pod(changed Email address)
+
+0.0.1  Tue Nov  4 09:30:00 2008
+       Initial release.
+

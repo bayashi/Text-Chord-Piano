@@ -1,0 +1,9 @@
+Build.PL
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Text/Chord/Piano.pm
+t/00.load.t
+t/01.jamin.t
+META.yml
