@@ -9,7 +9,7 @@ use Music::Chord::Note;
 use base qw(Class::Accessor::Fast);
 __PACKAGE__->mk_accessors( qw(finger) );
 
-use version; our $VERSION = qv('0.0.5');
+our $VERSION = '0.05';
 
 my $cn = Music::Chord::Note->new();
 

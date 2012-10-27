@@ -7,12 +7,14 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/Text/Chord/Piano.pm',
+    build_requires      => {
+        'Test::More'  => 0.88,
+    },
     requires => {
-        'Test::More'            => 0,
-        'version'               => 0,
+        'perl' => '5.6.2',
         'Carp'                  => 0,
         'Class::Accessor::Fast' => 0,
-        'Music::Chord::Note'    => '0.0.6',
+        'Music::Chord::Note'    => '0.06',
     },
     add_to_cleanup      => [ 'Text-Chord-Piano-*' ],
 );
