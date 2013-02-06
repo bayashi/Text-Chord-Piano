@@ -16,6 +16,7 @@ my $builder = Module::Build->new(
         'Class::Accessor::Fast' => 0,
         'Music::Chord::Note'    => '0.06',
     },
+    script_files        => [ 'bin/piano_chord' ],
     add_to_cleanup      => [ 'Text-Chord-Piano-*' ],
 );
 
