@@ -14,7 +14,7 @@ my $builder = Module::Build->new(
         'perl' => '5.6.2',
         'Carp'                  => 0,
         'Class::Accessor::Fast' => 0,
-        'Music::Chord::Note'    => '0.06',
+        'Music::Chord::Note'    => '0.07',
     },
     script_files        => [ 'bin/piano_chord' ],
     add_to_cleanup      => [ 'Text-Chord-Piano-*' ],

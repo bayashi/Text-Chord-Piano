@@ -96,7 +96,7 @@ is(
 );
 
 
-is(66, scalar(@{$p->all_chords}), "all_chord");
+is(65, scalar(@{$p->all_chords}), "all_chord");
 
 is(
     $p->put_keyboard,

@@ -1,5 +1,10 @@
 Revision history for Text-Chord-Piano
 
+0.061   Sat Feb  9 09:55:02 JST 2013
+    [NO CODE CHANGE]
+        - fixed test
+        - fixed version of dependent module
+
 0.06    Wed Feb  6 23:14:31 JST 2013
         - added `piano_chord` command
 

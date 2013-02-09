@@ -15,12 +15,12 @@ name: Text-Chord-Piano
 provides:
   Text::Chord::Piano:
     file: lib/Text/Chord/Piano.pm
-    version: 0.05
+    version: 0.061
 requires:
   Carp: 0
   Class::Accessor::Fast: 0
-  Music::Chord::Note: 0.06
+  Music::Chord::Note: 0.07
   perl: v5.6.2
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.05
+version: 0.061

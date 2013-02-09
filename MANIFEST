@@ -1,3 +1,4 @@
+bin/piano_chord
 Build.PL
 Changes
 lib/Text/Chord/Piano.pm
