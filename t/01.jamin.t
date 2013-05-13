@@ -4,7 +4,6 @@ use Text::Chord::Piano;
 
 my $p = Text::Chord::Piano->new;
 
-
 eval { $p->chord; };
 like($@, qr/no chord/, 'no chord');
 
