@@ -18,6 +18,12 @@ my $builder = Module::Build->new(
     },
     script_files        => [ 'bin/piano_chord' ],
     add_to_cleanup      => [ 'Text-Chord-Piano-*' ],
+    meta_merge     => {
+      resources => {
+        repository  => 'http://github.com/bayashi/Text-Chord-Piano',
+        bugtracker  => 'http://github.com/bayashi/Text-Chord-Piano/issues',
+      }
+    },
 );
 
 $builder->create_build_script();
