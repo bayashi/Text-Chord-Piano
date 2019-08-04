@@ -166,7 +166,7 @@ set/get finger position text (default is '*')
 
 =head1 SEE ALSO
 
-GD::Chord::Piano
+L<GD::Chord::Piano>
 
 
 =head1 AUTHOR
